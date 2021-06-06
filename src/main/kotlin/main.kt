@@ -8,5 +8,11 @@ fun main(args: Array<String>) {
 
      */
 
-    val array = Ejercicio2(10){ Random.nextInt(50,250)}
+    /*val arrayNumeros= Ejercicio2(10){ Random.nextInt(50,250) }
+    arrayNumeros.array.forEach { array ->
+        println("$array")
+    }
+*/
+
+    Ejercicio3().numerosImpares(Ejercicio2(10){ Random.nextInt(50,250) }.array)
 }
